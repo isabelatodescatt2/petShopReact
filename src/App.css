@@ -36,3 +36,27 @@
 		transform: rotate(360deg);
 	}
 }
+
+.logo img{
+	height: 100px;
+}
+
+.menu{
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 0 20px !important;
+	border-left:  1px solid #666 !important;
+	font-size: 20px !important;
+}
+
+.menu:first-child{
+	border-left: none !important;
+}
+.menu a{
+	color: #666;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	opacity: .7;
+}
