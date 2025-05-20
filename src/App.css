@@ -1,18 +1,24 @@
-.App {
-	text-align: center;
+.logo img{
+	height: 100px;
 }
 
-.App-logo {
-	height: 40vmin;
-	pointer-events: none;
+.menu{
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 0 20px !important;
+	border-left:  1px solid #666 !important;
+	font-size: 20px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-	.App-logo {
-		animation: App-logo-spin infinite 20s linear;
-	}
+.menu:first-child{
+	border-left: none !important;
+}
+.menu a{
+	color: #666;
+	text-decoration: none;
 }
 
+<<<<<<< HEAD
 .App-header {
 	background-color: #282c34;
 	min-height: 100vh;
@@ -60,3 +66,8 @@
 .menu a:hover{
 	opacity: .7;
 }
+=======
+.menu a:hover{
+	opacity: .7;
+}
+>>>>>>> 3a769a234cd5aa8ec02abc9d8c91322f2f98bec4
